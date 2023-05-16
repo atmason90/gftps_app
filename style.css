@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-items: center;
+  }
+
+  strong {
+    color: dodgerblue;
+    font-size: 16px;
+  }
+
+  h6 {
+    font-size: 12px;
+    text-decoration: underline;
+  }
+  #map-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #map {
+    bottom: 0;
+    position: absolute;
+    top: 0;
+    margin-top: 150px;
+    width: 80%;
+    height: 80%
+  }
