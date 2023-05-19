@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     justify-items: center;
+    font-family: 'Bebas Neue', 'sans-serif';
   }
 
   strong {
@@ -13,6 +14,12 @@ body {
     font-size: 12px;
     text-decoration: underline;
   }
+
+  #sub-header {
+    font-size: 14px;
+    text-decoration: none;
+  }
+
   #map-container {
     display: flex;
     justify-content: center;

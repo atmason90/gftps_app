@@ -9,6 +9,7 @@ function initMap() {
     data: {
       $limit: 5000,
       status: 'APPROVED',
+      facilitytype: 'Truck',
       $$app_token: dataSfApiKey,
     },
   }).done(function (data) {
@@ -56,12 +57,8 @@ function initMap() {
 
     marker.setPopup(popup)
   }
-
-
   });
   console.log(foodTrucks);
-
-
 }
 
 initMap();
